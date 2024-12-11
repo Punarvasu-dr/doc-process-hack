@@ -11,7 +11,7 @@ if [ -z "$(az account show)" ]; then
 fi
 
 # Get the resource group name from the script parameter named resource-group
-resourceGroupName=""
+resourceGroupName="hackthon-westeurope"
 
 # Parse named parameters
 while [[ "$#" -gt 0 ]]; do
